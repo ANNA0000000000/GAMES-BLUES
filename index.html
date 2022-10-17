@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=0,viewport-fit=cover">
+  <title>My LIFF App</title>
+</head>
+<body>
+    <script src="https://static.line-scdn.net/liff/edge/versions/2.5.0/sdk.js"></script>
+    <script>
+        async function main() {
+                                         // Liff ID
+            await liff.init({ liffId: "1657565094-p7g7g8Zm" })
+            await liff.shareTargetPicker([
+                {
+                    type: "flex",
+                    // ข้อความก่อนกดอ่าน
+                    altText: "ขอแสดงความยินดี คุณคือผู้โชคดี",
+                    contents: 
+                    // โค้ดจาก line bot designer
+                    {
+  "type": "carousel",
+  "contents": [
+    {
+      "type": "bubble",
+      "hero": {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+              {
+                "type": "text",
+                "text": "💡 GAMES BLUES 💡",
+                "align": "center",
+                "weight": "bold",
+                "color": "#ffcc00"
+              },
+              {
+                "type": "text",
+                "text": "เว็บสล๊oตที่คุณคู่ควร",
+                "align": "center",
+                "size": "sm",
+                "color": "#ffffff"
+              }
+            ],
+            "background": {
+              "type": "linearGradient",
+              "angle": "0deg",
+              "startColor": "#0099cc",
+              "endColor": "#333366"
+            },
+            "borderColor": "#0099cc",
+            "borderWidth": "light",
+            "cornerRadius": "xl",
+            "margin": "md"
+          },
+          {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+              {
+                "type": "image",
+                "url": "https://cdn.discordapp.com/attachments/1020140725184253985/1030035706053132298/GAMES_BLUES-08.jpg",
+                "size": "full"
+              }
+            ],
+            "margin": "lg",
+            "borderWidth": "normal",
+            "cornerRadius": "md",
+            "borderColor": "#333366"
+          },
+          {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+              {
+                "type": "text",
+                "text": "🎊 สมาชิกใหม่รับสิทธิพิเศษมากมาย 🎊",
+                "size": "md",
+                "align": "center",
+                "weight": "bold",
+                "color": "#ffffff"
+              },
+              {
+                "type": "text",
+                "text": "💳 สมาชิกใหม่รับโบนัส 200 % 💳",
+                "size": "sm",
+                "align": "center",
+                "color": "#ffffff"
+              },
+              {
+                "type": "text",
+                "text": "🎗 แจกเครดิตฟรีไม่จำกัด 🎗",
+                "size": "sm",
+                "align": "center",
+                "color": "#ffffff"
+              }
+            ],
+            "margin": "xl"
+          },
+          {
+            "type": "box",
+            "layout": "horizontal",
+            "contents": [
+              {
+                "type": "box",
+                "layout": "vertical",
+                "contents": [
+                  {
+                    "type": "text",
+                    "text": "🎖 รับโปรโมชั่น 🎖",
+                    "align": "center",
+                    "color": "#ffffff",
+                    "size": "sm",
+                    "weight": "bold"
+                  },
+                  {
+                    "type": "box",
+                    "layout": "vertical",
+                    "contents": [
+                      {
+                        "type": "image",
+                        "url": "https://www.img.in.th/images/59e6de515fd80735d8e7739b82d52c53.png",
+                        "aspectRatio": "5:1",
+                        "size": "3xl",
+                        "animated": true
+                      }
+                    ],
+                    "background": {
+                      "type": "linearGradient",
+                      "angle": "0deg",
+                      "startColor": "#000000",
+                      "endColor": "#0099cc"
+                    },
+                    "borderColor": "#0099cc",
+                    "borderWidth": "normal",
+                    "cornerRadius": "xl"
+                  }
+                ],
+                "background": {
+                  "type": "linearGradient",
+                  "angle": "0deg",
+                  "startColor": "#333366",
+                  "endColor": "#0099cc"
+                },
+                "borderColor": "#333366",
+                "borderWidth": "normal",
+                "cornerRadius": "xl",
+                "action": {
+                  "type": "uri",
+                  "label": "action",
+                  "uri": "http://www.superjoker99.com/"
+                }
+              },
+              {
+                "type": "box",
+                "layout": "vertical",
+                "contents": [
+                  {
+                    "type": "box",
+                    "layout": "vertical",
+                    "contents": [
+                      {
+                        "type": "text",
+                        "text": "🎖 รับเครดิตฟรี 🎖",
+                        "align": "center",
+                        "weight": "bold",
+                        "color": "#ffffff",
+                        "size": "sm"
+                      }
+                    ],
+                    "borderColor": "#333366"
+                  },
+                  {
+                    "type": "box",
+                    "layout": "vertical",
+                    "contents": [
+                      {
+                        "type": "image",
+                        "url": "https://www.img.in.th/images/59e6de515fd80735d8e7739b82d52c53.png",
+                        "size": "3xl",
+                        "aspectRatio": "5:1",
+                        "animated": true
+                      }
+                    ],
+                    "borderColor": "#0099cc",
+                    "borderWidth": "normal",
+                    "cornerRadius": "xl",
+                    "background": {
+                      "type": "linearGradient",
+                      "angle": "0deg",
+                      "startColor": "#000000",
+                      "endColor": "#0099cc"
+                    }
+                  }
+                ],
+                "borderColor": "#333366",
+                "borderWidth": "normal",
+                "cornerRadius": "xl",
+                "background": {
+                  "type": "linearGradient",
+                  "angle": "0deg",
+                  "startColor": "#333366",
+                  "endColor": "#0099cc"
+                },
+                "action": {
+                  "type": "uri",
+                  "label": "action",
+                  "uri": "https://lin.ee/cdPxLFE"
+                }
+              }
+            ],
+            "margin": "md"
+          }
+        ],
+        "background": {
+          "type": "linearGradient",
+          "angle": "0deg",
+          "startColor": "#333366",
+          "endColor": "#333366",
+          "centerColor": "#0099cc"
+        },
+        "borderColor": "#333366",
+        "borderWidth": "normal",
+        "cornerRadius": "xl",
+        "paddingAll": "md",
+        "paddingBottom": "md"
+      }
+    }
+  ]
+}
+                }
+            ])
+            liff.closeWindow()
+        }
+        main()
+    </script>
+</body>
+</html>
